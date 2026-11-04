@@ -1,14 +1,26 @@
-.header{
+body{
 	justify-content: center;
 	display: flex;
-	margin: 0px;
-	padding: 0px;
-	background-color: black;
+	background-color: whitesmoke;
+
+}
+
+
+.header{
+	justify-content: left;
+	display: flex;
+	margin: 20px;
+	padding: 20px;
+	background-color: blueviolet;
+	color:white;
+
 }
 
 .main{
 	justify-content: center;
 	display: flex;
+	padding: 50px;
+	background-color: pink;
 }
 
 #flexbox{
@@ -16,13 +28,25 @@
 	display: flex;
 	justify-content: center;
 	background-color: white;
+	padding: 100px;
+	margin: 100px;
+}
 
+#flexbox div{
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	background-color: pink;
+	padding: 50px;
+	margin: 50px;
 }
 
 .footer{
-	justify-content: flex-end;
+	justify-content: left;
 	display: flex;
-	margin: 0px;
-	padding: 0px;
-	background-color: black;s
+	margin: 10px;
+	padding: 10px;
+	background-color: blueviolet;
+	height: 100px;
+	color:white;
 }
