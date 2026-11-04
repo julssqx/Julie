@@ -1,1 +1,28 @@
-style.css
+.header{
+	justify-content: center;
+	display: flex;
+	margin: 0px;
+	padding: 0px;
+	background-color: black;
+}
+
+.main{
+	justify-content: center;
+	display: flex;
+}
+
+#flexbox{
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	background-color: white;
+
+}
+
+.footer{
+	justify-content: flex-end;
+	display: flex;
+	margin: 0px;
+	padding: 0px;
+	background-color: black;s
+}
